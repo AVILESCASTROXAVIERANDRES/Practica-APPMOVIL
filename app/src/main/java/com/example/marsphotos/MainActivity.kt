@@ -27,6 +27,7 @@ import com.example.marsphotos.ui.theme.MarsPhotosTheme
 class MainActivity : ComponentActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
+
         setContent {
             MarsPhotosTheme {
                 val viewModel: MarsViewModel =

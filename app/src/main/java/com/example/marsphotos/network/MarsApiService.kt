@@ -39,6 +39,7 @@ private val retrofit = Retrofit.Builder()
  * Retrofit service object for creating api calls
  */
 interface MarsApiService {
+
     @GET("photos")
     suspend fun getPhotos(): List<MarsPhoto>
 }
